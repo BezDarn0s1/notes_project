@@ -34,6 +34,7 @@ aside h3{
 aside ul{list-style: none;}
 aside ul li{
     color: #fff;
+    text-decoration: none;
     display: block;
     margin-top: 20px;
     transition: transform .6s ease;
@@ -45,3 +46,15 @@ aside ul li:hover, aside ul a:hover{
     transform: scale(1.05);
 
 }
+
+main .features{
+    text-align: center;
+    position: absolute;
+    display: inline;
+    color: #fff;
+    width: 75%;
+    margin-top: 100px;
+}
+
+main .features h1{font-size: 50px;}
+main .features p{max-width: 400px; margin: 20px auto;}
