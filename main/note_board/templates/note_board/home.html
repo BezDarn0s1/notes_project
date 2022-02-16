@@ -1,24 +1,8 @@
-{% load static %}
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="{% static 'note_board/css/home.css' %}">
-</head>
-<body>
+{% extends 'note_board/base.html' %}
 
-<header>Заголовок страницы</header>
+{% block title %}Заметки{% endblock  %}
 
-<nav>Меню навигации</nav>
 
-<aside>Боковая колонка SideBar</aside>
-
-<article>
- Контент - основное содержимое страницы.
-</article>
-
-<footer>Подвал сайта</footer>
- 
-</body>
-</html>
+{% block content %}
+главная страница
+{% endblock  %}
