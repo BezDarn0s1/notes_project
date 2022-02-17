@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def regisration(request):
+    return render (request, 'users_profile/reg.html')
+
